@@ -1,6 +1,7 @@
 
 public class Paciente {
 
+
 	String codigo, nombre, apellidos, direccion, poblacion, provincia, codigoPostal, telefono, fNacimiento;
 	
 	public Paciente(String codigo,String nombre,String apellidos,String direccion,String poblacion,String privincia,String codigoPostal,String teléfono,String fNacimiento){
@@ -122,5 +123,6 @@ public class Paciente {
 	public void setfNacimiento(String fNacimiento) {
 		this.fNacimiento = fNacimiento;
 	}
+
 	
 }
